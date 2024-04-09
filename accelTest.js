@@ -5,6 +5,6 @@ function handleOrientation(event) {
     const alpha = event.alpha;
     const beta = event.beta;
     const gamma = event.gamma;
-    let ph = document.getElementById("placeholder").innerHTML
-    ph = "Z axis " + alpha + "\nY axis "+ beta + "\nX axis" + gamma
+    let ph = document.getElementById("placeholder")
+    ph.innerHTML = "Z axis " + alpha + "\nY axis "+ beta + "\nX axis" + gamma
       }
